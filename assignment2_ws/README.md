@@ -1,10 +1,9 @@
-This folder will contain three programs, 
+This folder contains three programs, 
 The first program is meant to navigate the turtle into a circle, with the file named as circle.py
 
-Second program would focus on navigating the turtle into a straight line.
+Second program would focus on navigating the turtle into a straight line, with the file named as square_openloop.py
 
-Lastly, the last program would be based on navigating the turtle into a square closed loop for the given set of coordinates. In the third 
-program using the concept of 'Odometry' and Euclidean Distance, we have able to achieve the objectivity of the given program.
+Lastly, the last program would be based on navigating the turtle into a square closed loop for the given set of coordinates. In the third program using the concept of 'Odometry' and Euclidean Distance, we have able to achieve the objectivity of the given program, with the file named as square_openloop.py
 
 In all the three program, body of the coding and specifically initially body elements of the code are analogous. 
 
