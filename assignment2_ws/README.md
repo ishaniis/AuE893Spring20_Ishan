@@ -20,8 +20,8 @@ required libary for the given program.
 If anytime, you feel your system doesn't have the required libraries, you can always install them using PIP, it's the standard package manager for python.
 
 If you don't have pip package you can that easily by typing -
-sudo apt-get install python-pip 
-pip install <Package name>
+1. Step1 - sudo apt-get install python-pip 
+2. Step2 - pip install <Package name>
   
 Now, when you have made sure that the dependencies of the given code have been solved. You can proceed to importing the libraries into you code. 
 
@@ -39,3 +39,9 @@ To ease off the entire process, the series of steps has been encapsulated in one
 Steps to run the scripts -
 rosrun turtlesim <node_name>
 python <script name>
+
+**POINT OF ERROR -
+If you have upgraded your python IDE environment to 3.6 or above (to the Latest 3.7). I would STRONGLY RECOMMEND to downgrade your environment for the fact the ROS Kinetic stable release as of now seems compatible to just 2.7.2 release only.
+To check the environment version 
+1. python --version
+ **After you install the python 2.7.2, make sure to configure the environment accurately with the required variables. 
