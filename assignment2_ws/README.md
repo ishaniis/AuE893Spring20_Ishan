@@ -26,4 +26,12 @@ pip install <Package name>
 Now, when you have made sure that the dependencies of the given code have been solved. You can proceed to importing the libraries into you code. 
 
 Now, as we move ahead, we proceed to the body of the code for the given program. 
+Process adopted which strikes commonality in all the three codes (circle.py , square_openloop.py , square_closedloop.py) 
+1. Step 1 - Starting a new Node
+2. Step 2 - Creating a Publisher (to lead communications to the turtlebot)(Moreof, a clinical example of widely used messaging system in DevOps and different network architectures (Commonly used tools - Apache Kafka) )
+3. Step 3 - Creation of message 
+ROS effectively utilizes the messages to describe data values that need to be published onto the nodes during the entire process.
+4. Step 4 - Establishing the publish rate
 
+Rest, the body of the code changes from this end for all the three programs. 
+To ease off the entire process, the series of steps has been encapsulated in one function, as it gives you an advantage to effectively work through the series of steps just by calling the above defined function once.
