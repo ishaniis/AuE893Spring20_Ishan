@@ -4,7 +4,7 @@ from geometry_msgs.msg import Twist
 
 def move():
 	# Starts a new node
-    	rospy.init_node('robot_cleaner', anonymous=True)
+    	rospy.init_node('ros_circle', anonymous=True)
 
 	# Create a publisher which can "talk" to Turtlesim and tell it to move
 	pub = rospy.Publisher('turtle1/cmd_vel', Twist, queue_size=1)
