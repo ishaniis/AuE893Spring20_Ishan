@@ -35,3 +35,7 @@ ROS effectively utilizes the messages to describe data values that need to be pu
 
 Rest, the body of the code changes from this end for all the three programs. 
 To ease off the entire process, the series of steps has been encapsulated in one function, as it gives you an advantage to effectively work through the series of steps just by calling the above defined function once.
+
+Steps to run the scripts -
+rosrun turtlesim <node_name>
+python <script name>
