@@ -22,7 +22,7 @@ def move():
 
         # Save current time and set publish rate at 10 Hz
         now = rospy.Time.now()
-        rate = rospy.Rate(5)
+        rate = rospy.Rate(10)
 
 	#This will be our second twist variable, i.e turn
         turn_cmd = Twist()
@@ -30,18 +30,16 @@ def move():
         turn_cmd.angular.z = radians(45) 
 	#45 deg/s in radians/s
 
-	#two keep drawing squares.  
-	#Go forward for 2 seconds (10 x 5 HZ) then turn for 2 second
 	count = 0
         while not rospy.is_shutdown():
 	    # go forward 0.4 m (2 seconds * 0.2 m / seconds)
 	    	rospy.loginfo("Going Straight")
-            	for x in range(0,10):
+            	for x in range(0,20):
                 	pub.publish(move_cmd)
                 	rate.sleep()
 	    		# turn 90 degrees
 	    		rospy.loginfo("Turning")
-            	for x in range(0,10):
+            	for x in range(0,20):
                 	pub.publish(turn_cmd)
                 	rate.sleep()            
 	    	count = count + 1
