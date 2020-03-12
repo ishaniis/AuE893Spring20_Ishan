@@ -25,7 +25,7 @@ If you don't have pip package you can that easily by typing -
 Now, when you have made sure that the dependencies of the given code have been solved. You can proceed to importing the libraries into you code. 
 
 Now, as we move ahead, we proceed to the body of the code for the given program. 
-Process adopted which strikes commonality in all the three codes (circle.py , square_openloop.py , square_closedloop.py) 
+Process adopted which strikes commonality in all the three codes (circle.py , square_openloop.py , square_closedloop_firstapproach.py , square_closeloop_secondapproach.py) 
 1. Step 1 - Starting a new Node
 2. Step 2 - Creating a Publisher (to lead communications to the turtlebot)(Moreof, a clinical example of widely used messaging system in DevOps and different network architectures (Commonly used tools - Apache Kafka) )
 3. Step 3 - Creation of message 
